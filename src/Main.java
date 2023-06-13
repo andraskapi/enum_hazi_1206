@@ -14,6 +14,7 @@ public class Main {
         System.out.println(Month.MARCH.isSpringMonth());
         System.out.println(Month.SEPTEMBER.isWinterMonth());
         System.out.println(Month.DECEMBER.getMonthNumber());
+        System.out.println(Month.SEPTEMBER.getMonthNumber());
         for (Month numerOfMonth : Month.values()
              ) {
             System.out.println(numerOfMonth.getMonthNumber()  + ". hónap: " + numerOfMonth.getInHun());
